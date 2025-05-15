@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <STPopup/STPopupNavigationBar.h>
+#import <STPopupNavigationBar.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

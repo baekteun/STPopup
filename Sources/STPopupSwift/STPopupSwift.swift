@@ -9,10 +9,11 @@
 #if canImport(SwiftUI)
 
 import SwiftUI
+import STPopupObjc
 
 public typealias PopupStyle = STPopupStyle
 
-@available (iOS 13.0, *)
+@available(iOS 13.0, *)
 public extension View {
   @ViewBuilder func popup<ContentView>(
     isPresented: Binding<Bool>,
